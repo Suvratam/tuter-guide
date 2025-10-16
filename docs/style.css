@@ -41,6 +41,7 @@ nav ul li a {
 }
 .main-content {
     display: flex;
+    flex-direction: row-reverse;
     margin-top: 20px;
 }
 .content {
