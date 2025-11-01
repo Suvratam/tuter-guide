@@ -28,16 +28,24 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
 }
 nav ul li {
     display: inline;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
     margin: 0 15px;
+}
+.main {
+    font-size: 2em;
+    color: #2fcfffee;
+    text-align: left;
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    text-align: right;
 }
 .main-content {
     display: flex;
