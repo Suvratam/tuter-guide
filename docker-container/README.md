@@ -1,18 +1,6 @@
-[Home](../README.md) | [History and Motivation](../01-history-and-motivation/README.md)
-| [Technology Overview](../02-technology-overview/README.md)
-| [Installation and Set Up](../03-installation-and-set-up/README.md)
-| [Using 3rd Party Containers](../04-using-3rd-party-containers/README.md)
-| [Example Web Application](../05-example-web-application/README.md)
-| [Building Container Images](../06-building-container-images/README.md)
-| [Container Registries](../07-container-registries/README.md)
-| [Running Containers](../08-running-containers/README.md)
-| [Container Security](../09-container-security/README.md)
-| [Interacting with Docker Objects](../10-interacting-with-docker-objects/README.md)
-| [Development Workflows](../11-development-workflow/README.md)
-| [Deploying Containers](../12-deploying-containers/README.md)
+| [Technology Overview](../multi-env-docker-compose/README.md)
 
 ---
-
 # Using 3rd party containers
 
 **Table of contents:**
@@ -441,11 +429,3 @@ yq-shell-function <sample-data/test.yaml '.key_1 + .key_2'
 alias 'yq-alias=docker run --rm -i -v ${PWD}:/workdir mikefarah/yq'
 yq-alias <sample-data/test.yaml '.key_1 + .key_2'
 ```
-
-## Bonus -- Jessie's talks:
-
-[Jess Frazelle](https://github.com/jessfraz) was an early engineer at Docker (among many other things), where she made many contributions to the container runtime. She also gave many fun talks about doing interesting things inside of containers. These two from 2015 are definitely worth a watch:
-
-- [Willy Wonka of Containers - Jessie Frazelle](https://www.youtube.com/watch?v=GsLZz8cZCzc)
-- [Container Hacks and Fun Images](https://www.youtube.com/watch?v=cYsVvV1aVss)
- 
